@@ -6,8 +6,7 @@
 }
 
 .header__title{
-    background-image: url(../resources/Banner\ Image.png);
-    background-image: url(./resources/Banner\ Image.png);
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 500px;
@@ -127,38 +126,97 @@
     margin-bottom: 10px;
 }
 
-/*
-header {
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    background-image: url(./resources/Banner\ Image.png);
+/* welcome party section */
+.welcome__section{
+    max-width: 1600px;
+    padding: 50px 140px 0px 140px;
+}
+
+.welcome__content {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+    padding: 0 100px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 140px;
-
-}
-
-.header__title{
+    border-radius: 16px;
+    flex-shrink: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.header__title h3{
+.welcome__title h1{
     color: #FFF;
-    font-size: 32px;
-    font-weight: 400;
-}
-
-.header__h1{
-    color: #FFF;
+    font-family: Merriweather;
     font-size: 50px;
     font-weight: 900;
-    line-height: 95px;
-} 
-*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.welcome__title p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.welcome__title button{
+    color: #010101;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* gift section */
+.gift {
+    max-width: 1600px;
+    padding: 50px 140px 0 140px;
+
+}
+
+
+
+.gift__text h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gift__text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 2px 0 20px;
+}
+
+.gift__text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 2px 0 20px;
+}
+
+.image img{
+    width: 376px;
+    height: 385px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 10px;
+}
