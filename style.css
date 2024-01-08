@@ -6,7 +6,7 @@
 }
 
 .header__title{
-    background-image: url(/resources/Banner\ Image.png);
+    background-image: url(./resources/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 500px;
